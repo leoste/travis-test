@@ -27,7 +27,7 @@ before_script:
 
 script:
   - npm run build
-  - docker build -t eritikass/ci-test .
+  - docker build -t leoste/travis-test .
 
 after_script:
   - docker ps
